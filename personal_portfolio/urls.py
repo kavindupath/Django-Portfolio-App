@@ -19,4 +19,6 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     #path( '', include('hello_world.urls')),  #in the hello_world folder go to urls 
+    path("projects/", include("projects.urls")),
+
 ]
