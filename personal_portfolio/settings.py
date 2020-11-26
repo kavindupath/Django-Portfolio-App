@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #'hello_world', # register hello_world app
     'projects',
+    'blog',
 ]
 
 MIDDLEWARE = [
